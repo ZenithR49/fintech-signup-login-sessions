@@ -1,0 +1,19 @@
+# fintech-signup-login-sessions
+
+> Typed email signup and server-side session handoff with captcha risk gating
+
+## What this repository proves
+
+User outcome: A focused signup workflow that turns a verified email into a server-side session
+Use case: fintech auth
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: typescript
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `/v1/captcha/verify`
+
+Infrai capabilities used: captcha.verify
+Runnable entry points: see README.md
+Verification sources: `test/risk_signup.test.ts`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt

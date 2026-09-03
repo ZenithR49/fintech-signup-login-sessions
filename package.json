@@ -1,0 +1,8 @@
+{
+  "name": "fintech-signup-login-sessions",
+  "private": true,
+  "type": "module",
+  "scripts": {"start": "node --experimental-strip-types src/signup_login_demo.ts", "test": "node --experimental-strip-types --test test/risk_signup.test.ts", "typecheck": "tsc --noEmit"},
+  "dependencies": {"zod": "^3.23.8"},
+  "devDependencies": {"typescript": "^5.6.0", "@types/node": "^22.0.0"}
+}
